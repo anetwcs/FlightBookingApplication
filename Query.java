@@ -166,7 +166,6 @@ public class Query {
     checkUserNameStatement = conn.prepareStatement(USERNAMEEXIST_SQL);
     directFlightStatement = conn.prepareStatement(DIRECTFLIGHT_SQL);
     onehopFlightStatement = conn.prepareStatement(ONEHOPFLIGHT_SQL);
-    // TODO: YOUR CODE HERE
   }
 
   /**
@@ -180,7 +179,6 @@ public class Query {
    */
   public String transaction_login(String username, String password)  {
     try {
-      // TODO: YOUR CODE HERE
 
       if (this.currentUserName != null) {
         return "User already logged in\n";
@@ -379,7 +377,6 @@ public class Query {
       // You can use the below code as a starting reference point or you can get rid
       // of it all and replace it with your own implementation.
       //
-      // TODO: YOUR CODE HERE
 
       int k = 0;
 
@@ -528,7 +525,6 @@ public class Query {
    */
   public String transaction_book(int itineraryId) {
     try {
-      // TODO: YOUR CODE HERE
       return "Booking failed\n";
     } finally {
       checkDanglingTransaction();
@@ -552,7 +548,6 @@ public class Query {
    */
   public String transaction_pay(int reservationId) {
     try {
-      // TODO: YOUR CODE HERE
       return "Failed to pay for reservation " + reservationId + "\n";
     } finally {
       checkDanglingTransaction();
@@ -579,7 +574,6 @@ public class Query {
    */
   public String transaction_reservations() {
     try {
-      // TODO: YOUR CODE HERE
       return "Failed to retrieve reservations\n";
     } finally {
       checkDanglingTransaction();
@@ -600,7 +594,6 @@ public class Query {
    */
   public String transaction_cancel(int reservationId) {
     try {
-      // TODO: YOUR CODE HERE
       return "Failed to cancel reservation " + reservationId + "\n";
     } finally {
       checkDanglingTransaction();
