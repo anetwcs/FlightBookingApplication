@@ -1,6 +1,6 @@
 #
 # create a username that is > 20 characters
-create user1 thisIsAPasswordThatIsLongerThanTwentyCharacters 100
+create thisIsAUserNameThatIsLongerThanTwentyCharacters passdrow 100
 quit
 *
 #

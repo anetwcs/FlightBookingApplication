@@ -1,0 +1,10 @@
+#Search for cities that are not in the query
+search "Kirkland WA" "Boston MA" 1 1 1
+quit
+*
+#
+# expected
+#
+No flights match your selection
+Goodbye
+*

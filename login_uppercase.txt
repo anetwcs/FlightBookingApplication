@@ -1,0 +1,15 @@
+# Username case sensitive check
+#
+create user1 user1 100
+login user1 user1
+create USER1 user1 100
+quit
+*
+#
+# expected printouts for user 1
+#
+Created user user1
+Logged in as user1
+Failed to create user
+Goodbye
+*
