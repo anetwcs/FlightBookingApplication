@@ -1,0 +1,17 @@
+--An Nguyen
+
+This is my first time working with a cloud-hosted DBMS.
+ 
+In my experience, The DBMS provided by Microsoft's Azure was quite user-friendly compared to a terminal's user iterface.
+I mostly used the Query Editor and personally like
+the result and message section on the interface. The side tab to view the files and folders are 
+also convenient compared to using a terminal. In terms of execution time for SQL Databases. I thought 
+it was quite slow to run a few queries at first. But after reading Patrick's Ed post about adjusting the
+DTUs to increase the run time, I know how to work around that part now. 
+
+I would have to use DBMS from other cloud-computing services to give the right recommendation. 
+Compared to DBMS that are not cloud-based, cloud-hosted DBMS provides the flexibility to work on 
+one data base from different computers or by different people. Those are what I would recommend 
+to users who need to work on larger dataset or require collaboration. For users who only need to
+learn about DBMS or work on a small dataset. I would recommend using the local terminal to avoid 
+service charges from Azure.
